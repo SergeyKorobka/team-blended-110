@@ -1,5 +1,5 @@
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   background-color: #fff;
   color: #8f95a5;
   font-size: 20px;
@@ -21,6 +21,7 @@ ul,
 ol {
   margin: 0;
   padding: 0;
+  list-style: none;
 }
 
 button {
@@ -31,6 +32,11 @@ button {
 
 a {
   color: currentColor;
+  text-decoration: none;
+}
+
+img {
+  display: block;
 }
 
 /* common */
@@ -39,6 +45,119 @@ a {
   max-width: 1378px;
   padding: 0 20px;
   margin: 0 auto;
+  outline: 1px solid #111;
 }
 
 /* header */
+
+.head {
+  padding: 55px 0;
+}
+
+.head-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.head-nav {
+  display: flex;
+  align-items: center;
+  gap: 236px;
+}
+.logo {
+  font-weight: 400;
+  font-size: 36px;
+  color: #000;
+}
+.logo-accent {
+  color: #939393;
+}
+
+.head-list {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.head-item {
+}
+.head-link {
+  font-weight: 500;
+  font-size: 20px;
+  color: #263238;
+}
+.head-btn {
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #000;
+  border: 2px solid #263238;
+  border-radius: 10px;
+  min-width: 312px;
+  height: 70px;
+}
+
+/***---HERO--- */
+
+.hero {
+  padding-bottom: 180px;
+}
+
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-thumb {
+  outline: 1px solid #000;
+  position: relative;
+}
+
+.hero-title {
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 1.25;
+  color: #000;
+  max-width: 386px;
+  margin-bottom: 40px;
+}
+
+.hero-img-bulb {
+  position: absolute;
+  top: 92px;
+  right: 0;
+}
+
+.hero-text {
+  line-height: 1.5;
+  font-size: 24px;
+  color: #8f95a5;
+  max-width: 540px;
+  margin-bottom: 60px;
+}
+
+.hero-btn {
+  font-weight: 400;
+  font-size: 36px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #fff;
+  border-radius: 10px;
+  min-width: 426px;
+  height: 100px;
+  background-color: #263238;
+}
+
+.hero-img {
+  margin-bottom: 38px;
+}
+
+/***-----Skills--------  */
+
+.skills-title {
+  font-weight: 600;
+  font-size: 48px;
+  color: #000;
+  text-align: center;
+  margin-bottom: 60px;
+}
